@@ -1,0 +1,72 @@
+
+body {
+    background-color: #fdf6e3; /* warm beige */
+    color: #4e342e; /* deep brown */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #b87333; /* copper */
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+ul {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+}
+li {
+    margin: 15px 0;
+    text-align: center;
+}
+.member-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f6deb8; /* light warm orange */
+    box-shadow: 0 2px 8px rgba(160, 82, 45, 0.08); /* soft brown shadow */
+    padding: 14px 0;
+    max-width: 320px;
+    margin: 0 auto;
+    gap: 18px;
+}
+.member-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e0b97f;
+    background: #fff;
+    margin-inline: 8px;
+}
+.member-name {
+    color: #a0522d; /* sienna */
+    font-weight: bold;
+    font-size: 1.1em;
+    flex: 1;
+    text-align: center;
+}
+.go-btn {
+    padding: 8px 18px;
+    margin-right: 20px;
+    background: #ffb74d; /* warm orange */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.go-btn:hover {
+    background: #ff8a65; /* deeper warm orange */
+}
+a {
+    text-decoration: none;
+}
