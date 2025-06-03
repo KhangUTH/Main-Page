@@ -1,6 +1,9 @@
 
 body {
-    background-color: #fdf6e3; /* warm beige */
+    /* background-color: #fdf6e3; warm beige */
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #4e342e; /* deep brown */
     font-family: Arial, sans-serif;
     margin: 0;
@@ -31,7 +34,7 @@ li {
     align-items: center;
     border-radius: 8px;
     background-color: #f6deb8; /* light warm orange */
-    box-shadow: 0 2px 8px rgba(160, 82, 45, 0.08); /* soft brown shadow */
+    box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.5); /* soft brown shadow */
     padding: 14px 0;
     max-width: 320px;
     margin: 0 auto;
